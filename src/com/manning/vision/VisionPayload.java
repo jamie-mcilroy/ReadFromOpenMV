@@ -30,8 +30,7 @@ public class VisionPayload {
 	}
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return String.format("I'm a %s with a yPos of %s", getPayloadType(), getyPos());
+		return String.format("%s with a yPos of %s", getPayloadType(), getyPos());
 	}
 
 }
